@@ -798,7 +798,7 @@ section,
 
 .hero .carousel {
   width: 100%;
-  min-height: calc(100vh - 75px);
+  min-height: calc(80vh - 75px);
   padding: 0;
   margin: 0;
   position: relative;
@@ -807,7 +807,7 @@ section,
 @media (max-height: 500px),
 (max-width: 1200px) {
   .hero .carousel {
-    min-height: calc(100vh - 48px);
+    min-height: calc(80vh - 48px);
   }
 }
 
@@ -829,7 +829,7 @@ section,
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items:flex-start;
 }
 
 .hero .container {
@@ -858,6 +858,7 @@ section,
 
 @media (max-width: 768px) {
   .hero h2 {
+    margin-right: 50px;
     font-size: 30px;
   }
 }

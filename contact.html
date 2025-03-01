@@ -38,7 +38,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.jpg" alt=""> 
-        <h1 class="sitename">SkyTech-InfoTech</h1><span></span>
+        <h1 class="sitename">SKYTECH INFORMATION TECHNOLOGY</h1><span></span>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -85,6 +85,44 @@
       </div>
     </div><!-- End Page Title -->
 
+    <style>
+      /* Style for the WhatsApp icon container */
+      .whatsapp-icon {
+          position: fixed;
+          bottom: 15px; /* Adjusted bottom to provide more space */
+        left: 10px;
+        justify-content: center;
+          background-color: #25D366;
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+          cursor: pointer;
+          transition: transform 0.2s;
+      }
+
+      /* Scale effect on hover */
+      .whatsapp-icon:hover {
+          transform: scale(1.1);
+      }
+
+      /* WhatsApp icon image styling */
+      .whatsapp-icon img {
+          width: 35px;
+          height: 35px;
+      }
+  </style>
+    <div class="whatsapp-icon" onclick="openWhatsApp()">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
+  </div>
+  <script>
+    function openWhatsApp() {
+        window.open("https://wa.me/97984 91319", "_blank");
+    }
+</script>
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
