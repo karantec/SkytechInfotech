@@ -38,12 +38,12 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.jpg" alt=""> 
-        <h1 class="sitename">Skytech Infotech</h1><span></span>
+        <h1 class="sitename">SKYTECH INFORMATION TECHNOLOGY</h1><span></span>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="index.html" >Home</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="team.html">Team</a></li>
@@ -51,23 +51,68 @@
              
             </ul>
           </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="portfolio.html" >Portfolio</a></li>
           <li><a href="client.html">Clients</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" >Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="header-social-links">
-        <a href="https://x.com/skytechinfotech" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=61573766010949&sk=about" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/skytechinfotech/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="www.linkedin.com/in/skytech-it-29187b353" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a style="color:black" href="https://x.com/skytechinfotech" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a style="color:blue" href="https://www.facebook.com/profile.php?id=61573766010949&sk=about" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a style="color:red"  href="https://www.instagram.com/skytechinfotech/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a  style="color:blue" href="www.linkedin.com/in/skytech-it-29187b353" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
   </header>
+
+
+  <main class="main">
+
+    <!-- Page Title -->
+  <!-- End Page Title -->
+
+    <style>
+      /* Style for the WhatsApp icon container */
+      .whatsapp-icon {
+          position: fixed;
+          bottom: 15px; /* Adjusted bottom to provide more space */
+        left: 10px;
+        justify-content: center;
+          background-color: #25D366;
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+          cursor: pointer;
+          transition: transform 0.2s;
+      }
+
+      /* Scale effect on hover */
+      .whatsapp-icon:hover {
+          transform: scale(1.1);
+      }
+
+      /* WhatsApp icon image styling */
+      .whatsapp-icon img {
+          width: 35px;
+          height: 35px;
+      }
+  </style>
+    <div class="whatsapp-icon" onclick="openWhatsApp()">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
+  </div>
+  <script>
+    function openWhatsApp() {
+        window.open("https://wa.me/9798491319", "_blank");
+    }
+</script>
 
   <main class="main">
 
@@ -100,9 +145,9 @@
                 <i class="bi bi-camera-video"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>CCTV Surveillance Systems</h3>
+                <h3 style="font-weight:bold;color: black;">CCTV Surveillance Systems</h3>
               </a>
-              <p>Professional installation of IP, HD, and WI-FI camera systems for comprehensive security monitoring of your premises.</p>
+              <p style="color: black;">Professional installation of IP, HD, and WI-FI camera systems for comprehensive security monitoring of your premises.</p>
             </div>
           </div><!-- End Service Item -->
     
@@ -115,9 +160,9 @@
                 <i class="bi bi-telephone"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Intercom Solutions</h3>
+                <h3 style="font-weight:bold;color: black;">Intercom Solutions</h3>
               </a>
-              <p>Advanced intercom systems including CRYSTAL, MATRIX, and custom PROGRAMMING options for secure and efficient communication.</p>
+              <p style="color: black;">Advanced intercom systems including CRYSTAL, MATRIX, and custom PROGRAMMING options for secure and efficient communication.</p>
             </div>
           </div><!-- End Service Item -->
     
@@ -130,9 +175,9 @@
                 <i class="bi bi-fingerprint"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Biometric Security Systems</h3>
+                <h3 style="font-weight:bold;color: black;">Biometric Security Systems</h3>
               </a>
-              <p>State-of-the-art biometric security solutions for enhanced access control and identification verification.</p>
+              <p style="color: black;">State-of-the-art biometric security solutions for enhanced access control and identification verification.</p>
             </div>
           </div><!-- End Service Item -->
     
@@ -145,9 +190,9 @@
                 <i class="bi bi-door-open"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Door Access Control Systems</h3>
+                <h3 style="font-weight:bold;color: black;">Door Access Control Systems</h3>
               </a>
-              <p>Comprehensive door access solutions to secure entry points and monitor movement throughout your facility.</p>
+              <p style="color: black;">Comprehensive door access solutions to secure entry points and monitor movement throughout your facility.</p>
               <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -161,9 +206,9 @@
                 <i class="bi bi-camera"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Video Door Phones (VDP)</h3>
+                <h3 style="font-weight:bold;color: black; ">Video Door Phones (VDP)</h3>
               </a>
-              <p>Advanced video door phone systems that allow you to see and communicate with visitors before granting access.</p>
+              <p style="color: black;" >Advanced video door phone systems that allow you to see and communicate with visitors before granting access.</p>
               <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -177,9 +222,9 @@
                 <i class="bi bi-fire"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Fire Alarm Control Panels (FACP)</h3>
+                <h3 style="color: black; font-weight:bold">Fire Alarm Control Panels (FACP)</h3>
               </a>
-              <p>GENT and AGNI conventional and addressable fire alarm systems for early detection and prevention of fire hazards.</p>
+              <p style="color: black;">GENT and AGNI conventional and addressable fire alarm systems for early detection and prevention of fire hazards.</p>
               <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -193,9 +238,9 @@
                 <i class="bi bi-ethernet"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Computer Networking</h3>
+                <h3 style="color: black; font-weight:bold">Computer Networking</h3>
               </a>
-              <p>Complete network setup, configuration, and maintenance services for businesses and commercial establishments.</p>
+              <p style="color: black; ">Complete network setup, configuration, and maintenance services for businesses and commercial establishments.</p>
             </div>
           </div><!-- End Service Item -->
     
@@ -208,9 +253,9 @@
                 <i class="bi bi-code-square"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Software Development</h3>
+                <h3 style="color: black; font-weight:bold">Software Development</h3>
               </a>
-              <p>Custom software solutions designed to meet your specific business requirements and optimize operations.</p>
+              <p style="color: black;">Custom software solutions designed to meet your specific business requirements and optimize operations.</p>
             </div>
           </div><!-- End Service Item -->
     
@@ -223,11 +268,45 @@
                 <i class="bi bi-box-seam"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>IT Accessories Wholesale</h3>
+                <h3 style="color: black; font-weight:bold">PROJECTORS</h3>
               </a>
-              <p>Wholesale distribution of quality IT accessories and components at competitive prices for businesses and retailers.</p>
+              <p style="color: black;">Wholesale distribution of quality Projectors at competitive prices for businesses and retailers.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="900">
+            <div class="service-item item-purple position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i class="bi bi-box-seam"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3 style="color: black; font-weight:bold">BOOM BARIER</h3>
+              </a>
+              <p style="color:black">Wholesale distribution of quality BOOM BARIER at competitive prices for businesses and retailers.</p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="900">
+            <div class="service-item item-purple position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i class="bi bi-box-seam"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3 style="color: black; font-weight:bold">TRIPOD GATE BARRIER</h3>
+              </a>
+              <p style="color: black"> Wholesale distribution of quality TRIPOD GATE BARRIER at competitive prices for businesses and retailers.</p>
+            </div>
+          </div>
+
+          
     
         </div>
     

@@ -38,73 +38,79 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo.jpg" alt=""> 
-        <h1 class="sitename">Skytech Infotech</h1><span></span>
+        <h1 class="sitename">SKYTECH INFORMATION TECHNOLOGY</h1><span></span>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="index.html" >Home</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
+              <li><a href="team.html" >Team</a></li>
+              <li><a href="testimonials.html" class="active" >Testimonials</a></li>
              
             </ul>
           </li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="services.html" >Services</a></li>
+          <li><a href="portfolio.html" >Portfolio</a></li>
           <li><a href="client.html">Clients</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" >Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="header-social-links">
-        <a href="https://x.com/skytechinfotech" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=61573766010949&sk=about" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/skytechinfotech/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="www.linkedin.com/in/skytech-it-29187b353" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a style="color:black" href="https://x.com/skytechinfotech" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a style="color:blue" href="https://www.facebook.com/profile.php?id=61573766010949&sk=about" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a style="color:red"  href="https://www.instagram.com/skytechinfotech/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a  style="color:blue" href="www.linkedin.com/in/skytech-it-29187b353" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
   </header>
-  <style>
-    /* Style for the WhatsApp icon container */
-    .whatsapp-icon {
-        position: fixed;
-        bottom: 15px; /* Adjusted bottom to provide more space */
-      left: 10px;
-      justify-content: center;
-        background-color: #25D366;
-        border-radius: 50%;
-        width: 60px;
-        height: 60px;
-        display: flex;
+
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    
+    <style>
+      /* Style for the WhatsApp icon container */
+      .whatsapp-icon {
+          position: fixed;
+          bottom: 15px; /* Adjusted bottom to provide more space */
+        left: 10px;
         justify-content: center;
-        align-items: center;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-        cursor: pointer;
-        transition: transform 0.2s;
-    }
+          background-color: #25D366;
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+          cursor: pointer;
+          transition: transform 0.2s;
+      }
 
-    /* Scale effect on hover */
-    .whatsapp-icon:hover {
-        transform: scale(1.1);
-    }
+      /* Scale effect on hover */
+      .whatsapp-icon:hover {
+          transform: scale(1.1);
+      }
 
-    /* WhatsApp icon image styling */
-    .whatsapp-icon img {
-        width: 35px;
-        height: 35px;
+      /* WhatsApp icon image styling */
+      .whatsapp-icon img {
+          width: 35px;
+          height: 35px;
+      }
+  </style>
+    <div class="whatsapp-icon" onclick="openWhatsApp()">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
+  </div>
+  <script>
+    function openWhatsApp() {
+        window.open("https://wa.me/9798491319", "_blank");
     }
-</style>
-  <div class="whatsapp-icon" onclick="openWhatsApp()">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
-</div>
-<script>
-  function openWhatsApp() {
-      window.open("https://wa.me/97984 91319", "_blank");
-  }
 </script>
 
 
@@ -132,7 +138,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+             
               <h3>Nitish Singh</h3>
              
               <div class="stars">
@@ -151,7 +157,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            
               <h3>Syed Anwar</h3>
               
               <div class="stars">
@@ -167,7 +173,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              
               <h3>Kailash Kujur</h3>
              
               <div class="stars">
@@ -183,7 +189,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            
               <h3>Anoj Pradhan</h3>
             
               <div class="stars">
@@ -199,7 +205,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+           
               <h3>Hemant Ekka</h3>
            
               <div class="stars">
@@ -215,7 +221,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
+             
               <h3>Madhu Oraon</h3>
             
               <div class="stars">
