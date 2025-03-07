@@ -118,11 +118,19 @@
     <div class="whatsapp-icon" onclick="openWhatsApp()">
       <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
   </div>
-  <script>
+ <script>
     function openWhatsApp() {
-        window.open("https://wa.me/9798491319", "_blank");
+        let phoneNumber = "919798491319"; // Ensure this includes the country code without '+'
+        
+        if (!/^\d{10,15}$/.test(phoneNumber)) {
+            alert("Invalid phone number format. Ensure it includes the country code without '+'.");
+            return;
+        }
+
+        window.open("https://wa.me/" + phoneNumber, "_blank");
     }
 </script>
+
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
